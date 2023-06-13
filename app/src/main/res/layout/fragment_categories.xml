@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCategories">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+            <ImageView
+                android:id="@+id/imageCategories"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBody1"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/item_gnvp"
+                />
+
+                <Button
+                    android:id="@+id/buttonPrihvat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="@string/PrihvatTrub"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/W"/>
+                <Button
+                    android:id="@+id/buttonPrihvatOK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="@string/PrihvatOK"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/W"/>
+            </LinearLayout>
+</androidx.core.widget.NestedScrollView>

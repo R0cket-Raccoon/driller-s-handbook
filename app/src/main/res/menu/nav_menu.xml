@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <item android:title="@string/Газонефтеводопроявление"
+            android:id="@+id/GNVP_menu"
+            android:background="@drawable/button_border"/>
+        <item android:title="@string/Поглощение"
+            android:id="@+id/Pogloschenie_menu"
+            android:background="@drawable/button_border"/>
+        <item android:title="@string/Прихват"
+            android:id="@+id/Prihvat_menu"
+            android:background="@drawable/button_border"/>
+        <item android:title="@string/h2s"
+            android:id="@+id/H2S_menu"
+            android:titleCondensed="Пласты с сероводородом"
+            android:background="@drawable/button_border"
+            />
+
+</menu>
